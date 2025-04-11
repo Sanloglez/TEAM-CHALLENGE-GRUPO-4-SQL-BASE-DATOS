@@ -32,7 +32,7 @@ CREATE TABLE proveedores (
 );
 """)
 
-cursor.execute("INSERT INTO proveedores (nombre, direccion, ciudad, provincia, codigo_proveedor) VALUES ('Recambios López')")
+cursor.execute("INSERT INTO proveedores (nombre, direccion, ciudad, provincia, codigo_proveedor) VALUES ('Recambios López', 'General Castaños', 'Algeciras', 'Cádiz', 'PROV01')")
 
 #TABLA PIEZAS
 cursor.execute("""
@@ -47,6 +47,8 @@ CREATE TABLE piezas (
 );
 """)
 
+cursor.execute("INSERT INTO piezas (codigo_pieza, nombre, color, precio) VALUES ('RU01', 'Rueda', 'gris', '80.00')")
+
 #TABLA PEDIDOS
 cursor.execute("""
 CREATE TABLE pedidos(
@@ -59,6 +61,9 @@ CREATE TABLE pedidos(
     FOREIGN KEY (pieza_id) REFERENCES piezas(pieza_id)
 );
 """)
+
+cursor.execute("INSERT INTO pedidos(proveedor_id, pieza_id, cantidad, fecha) VALUES ('RU01', 'Rueda', 'gris', '80.00')")
+
 conn.commit()
 conn.close()
 
