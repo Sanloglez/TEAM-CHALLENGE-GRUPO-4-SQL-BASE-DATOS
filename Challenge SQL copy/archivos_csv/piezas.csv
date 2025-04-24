@@ -1,101 +1,101 @@
 codigo_pieza,nombre,color,precio,categoria_id
-259,Faros delanteros,negro,413.37,5
-537,Motor de arranque,negro,285.61,3
-578,Radiador,azul,429.48,6
-539,Luces de freno,verde,223.41,4
-287,Embrague,verde,128.3,2
-489,Disco de freno,negro,19.06,1
-633,Motor de arranque,negro,358.43,6
-768,Compresor,negro,196.59,1
-272,Alfombrillas,rojo,101.28,1
-416,Batería,blanco,197.06,6
-687,Luces de freno,verde,125.6,5
-423,Espejo retrovisor,verde,242.49,3
-575,Faros delanteros,blanco,437.69,6
-924,Pastilla de freno,rojo,192.81,5
-121,Escape,azul,348.86,6
-292,Parabrisas,negro,100.69,3
-766,Inyector,negro,420.23,6
-388,Espejo retrovisor,azul,418.69,5
-977,Batería,verde,352.9,3
-149,Neumáticos de invierno,negro,325.38,3
-969,Luces de freno,verde,470.95,2
-187,Espejos,negro,22.09,1
-728,Compresor,verde,227.9,2
-262,Volante,verde,264.7,6
-776,Espejos,negro,41.04,1
-365,Disco de freno,verde,138.53,3
-992,Neumáticos de invierno,rojo,207.41,3
-126,Alfombrillas,blanco,22.97,2
-780,Parabrisas,rojo,52.61,6
-384,Filtro de aceite,azul,68.94,6
-820,Parabrisas,azul,294.71,1
-456,Espejo retrovisor,azul,46.9,3
-645,Disco de freno,azul,372.82,3
-531,Compresor,rojo,367.02,4
-555,Volante,rojo,74.46,4
-350,Ventilador,negro,477.57,5
-324,Embrague,verde,15.6,4
-922,Disco de freno,verde,236.27,4
-414,Amortiguador,blanco,368.18,2
-316,Alfombrillas,rojo,371.34,2
-736,Compresor,rojo,29.04,5
-793,Filtro de aceite,azul,496.97,5
-440,Embrague,negro,345.46,2
-444,Espejo retrovisor,negro,195.56,3
-121,Asientos,negro,429.28,6
-116,Pastilla de freno,azul,27.27,1
-674,Espejos,azul,49.36,5
-563,Escape,verde,231.58,4
-396,Parabrisas,rojo,494.93,2
-891,Neumaticos de veranoNeumatico de 4 estaciones,blanco,153.53,5
-718,Espejo retrovisor,blanco,97.62,4
-182,Asientos,blanco,108.43,6
-841,Batería,blanco,153.0,6
-590,Inyector,verde,406.17,4
-160,Disco de freno,blanco,121.96,2
-673,Alternador,negro,368.48,5
-206,Neumáticos de invierno,negro,371.67,3
-177,Luces de freno,negro,278.66,1
-889,Ventilador,blanco,128.29,2
-493,Neumáticos de invierno,negro,270.81,6
-386,Compresor,negro,209.3,3
-358,Bujía,rojo,157.22,6
-237,Ventilador,azul,352.9,2
-454,Alternador,rojo,410.13,4
-882,Parabrisas,negro,22.1,3
-937,Disco de freno,verde,71.79,3
-246,Embrague,negro,266.82,5
-777,Motor de arranque,blanco,181.06,3
-977,Volante,verde,341.2,2
-819,Pastilla de freno,verde,89.45,5
-333,Motor de arranque,verde,249.97,6
-360,Neumáticos de invierno,negro,34.89,3
-422,Luces de freno,verde,260.2,2
-860,Ventilador,verde,259.37,3
-456,Compresor,azul,421.25,3
-188,Batería,rojo,373.14,1
-550,Bujía,azul,83.51,2
-572,Bujía,azul,417.56,5
-446,Batería,negro,163.23,3
-758,Motor de arranque,verde,407.81,2
-197,Amortiguador,blanco,473.56,2
-661,Espejo retrovisor,rojo,462.8,2
-471,Radiador,rojo,61.59,5
-913,Espejo retrovisor,blanco,84.64,1
-275,Bujía,negro,48.54,2
-837,Batería,azul,41.74,4
-595,Espejo retrovisor,blanco,97.89,1
-458,Faros delanteros,rojo,10.36,3
-281,Espejos,verde,484.66,3
-597,Ventilador,blanco,388.38,4
-574,Alternador,blanco,73.23,5
-168,Pastilla de freno,rojo,232.41,1
-865,Amortiguador,azul,378.6,3
-169,Alternador,negro,34.95,2
-191,Faros delanteros,verde,196.0,4
-677,Batería,azul,491.0,1
-903,Escape,verde,412.65,3
-860,Filtro de aceite,rojo,26.48,4
-480,Embrague,rojo,163.27,3
-894,Bujía,negro,195.69,6
+757,Escape,negro,154.03,2
+108,Asientos,azul,212.02,5
+219,Radiador,verde,139.66,5
+649,Radiador,negro,335.28,2
+586,Asientos,azul,412.14,2
+331,Alfombrillas,negro,206.12,4
+705,Motor de arranque,azul,456.27,5
+686,Inyector,verde,33.23,1
+175,Filtro de aceite,azul,32.37,6
+290,Luces de freno,rojo,429.35,1
+394,Batería,blanco,378.25,1
+695,Embrague,blanco,142.49,1
+494,Espejo retrovisor,verde,138.87,2
+656,Disco de freno,verde,18.15,6
+332,Embrague,verde,194.05,6
+555,Inyector,blanco,107.26,6
+942,Volante,azul,499.71,3
+702,Amortiguador,negro,430.54,3
+587,Ventilador,verde,100.07,2
+809,Inyector,blanco,408.98,6
+997,Pastilla de freno,negro,90.85,1
+107,Filtro de aceite,blanco,332.8,6
+418,Neumáticos de invierno,rojo,229.94,3
+917,Motor de arranque,rojo,167.07,2
+173,Embrague,blanco,79.56,6
+510,Pastilla de freno,blanco,278.65,1
+694,Luces de freno,blanco,83.03,6
+890,Filtro de aceite,negro,28.67,4
+742,Filtro de aceite,azul,315.46,1
+553,Espejo retrovisor,azul,420.43,4
+161,Alfombrillas,verde,213.63,2
+140,Escape,verde,497.2,5
+875,Faros delanteros,azul,369.01,3
+272,Luces de freno,azul,394.92,1
+675,Amortiguador,verde,197.57,2
+931,Caja de cambios,blanco,454.69,1
+508,Bujía,verde,421.71,3
+240,Batería,blanco,250.24,4
+847,Caja de cambios,verde,430.97,3
+986,Pastilla de freno,negro,185.52,2
+915,Espejos,verde,389.15,2
+887,Alfombrillas,blanco,450.38,3
+296,Faros delanteros,rojo,217.7,6
+333,Caja de cambios,verde,122.12,6
+104,Compresor,azul,50.62,3
+834,Amortiguador,azul,219.05,6
+341,Luces de freno,azul,380.09,5
+912,Motor de arranque,verde,200.58,3
+483,Radiador,negro,202.64,4
+314,Neumaticos de veranoNeumatico de 4 estaciones,rojo,494.56,2
+392,Caja de cambios,verde,267.79,2
+710,Pastilla de freno,azul,153.73,5
+429,Filtro de aceite,blanco,73.38,1
+956,Embrague,rojo,493.18,1
+689,Alternador,rojo,272.13,6
+956,Faros delanteros,negro,114.08,3
+362,Espejo retrovisor,azul,159.62,2
+837,Ventilador,azul,392.17,1
+881,Alternador,rojo,34.31,6
+467,Caja de cambios,rojo,114.33,6
+560,Amortiguador,rojo,257.73,4
+143,Asientos,rojo,457.54,6
+737,Neumaticos de veranoNeumatico de 4 estaciones,verde,70.92,6
+756,Radiador,blanco,79.53,2
+621,Espejo retrovisor,blanco,64.67,3
+730,Asientos,verde,219.21,5
+499,Batería,rojo,379.67,1
+257,Espejo retrovisor,rojo,271.77,6
+363,Faros delanteros,azul,490.23,5
+205,Radiador,blanco,466.87,5
+909,Motor de arranque,blanco,94.6,4
+312,Escape,negro,382.24,1
+891,Neumáticos de invierno,negro,34.89,2
+313,Caja de cambios,azul,421.21,6
+845,Escape,rojo,322.04,2
+722,Luces de freno,rojo,221.57,4
+281,Alternador,negro,367.43,3
+535,Espejos,negro,314.86,2
+374,Luces de freno,rojo,101.5,1
+522,Escape,negro,303.24,1
+331,Neumáticos de invierno,blanco,134.52,4
+764,Inyector,rojo,194.43,6
+970,Batería,blanco,88.54,2
+348,Alfombrillas,verde,189.8,3
+119,Parabrisas,negro,418.01,4
+526,Espejo retrovisor,azul,420.57,2
+810,Filtro de aceite,negro,207.29,6
+628,Filtro de aceite,rojo,160.44,5
+377,Volante,rojo,49.52,2
+681,Amortiguador,negro,181.25,1
+248,Neumáticos de invierno,negro,401.51,4
+230,Disco de freno,azul,438.12,6
+755,Motor de arranque,blanco,499.1,1
+155,Bujía,verde,90.28,2
+390,Espejo retrovisor,azul,180.05,4
+697,Caja de cambios,negro,439.68,6
+803,Compresor,negro,490.65,4
+279,Radiador,blanco,189.97,2
+440,Pastilla de freno,negro,137.96,4
+302,Alfombrillas,azul,365.5,3
