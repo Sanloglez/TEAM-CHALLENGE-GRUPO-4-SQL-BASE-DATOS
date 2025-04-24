@@ -1,68 +1,61 @@
 import sqlite3
 
 # Crear conexión y cursor
-conn = sqlite3.connect(":memory:")
+conn = sqlite3.connect("./base_de_Datos_2.db")
 cursor = conn.cursor()
 
 # Crear tablas con SQL corregido
-cursor.executescript("""
+cursor.execute("""
 CREATE TABLE Proveedores (
     proveedor_id INTEGER PRIMARY KEY,
-    nombre TEXT,
+    nombre TEXT NOT NULL,
     direccion TEXT,
     ciudad TEXT,
     provincia TEXT
 );
+""")
 
+cursor.execute("""
 CREATE TABLE Categorias (
     categoria_id INTEGER PRIMARY KEY,
     nombre TEXT
 );
+""")
 
+cursor.execute("""
 CREATE TABLE Piezas (
     pieza_id INTEGER PRIMARY KEY,
     nombre TEXT,
     color TEXT,
     precio REAL,
     categoria_id INTEGER,
-    FOREIGN KEY (categoria_id) REFERENCES Categorias(categoria_id)
+    FOREIGN KEY (categoria_id) REFERENCES Categorias(categoria_id) ON DELETE SET NULL ON UPDATE SET NULL
 );
+""")
 
+cursor.execute("""
 CREATE TABLE Pedidos (
-    suministro_id INTEGER PRIMARY KEY,
+    suministro_id INTEGER PRIMARY KEY AUTOINCREMENT,
     proveedor_id INTEGER,
     pieza_id INTEGER,
     cantidad INTEGER,
     fecha DATE,
-    FOREIGN KEY (proveedor_id) REFERENCES Proveedores(proveedor_id),
-    FOREIGN KEY (pieza_id) REFERENCES Piezas(pieza_id)
+    FOREIGN KEY (proveedor_id) REFERENCES Proveedores(proveedor_id) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (pieza_id) REFERENCES Piezas(pieza_id) ON DELETE CASCADE ON UPDATE CASCADE,
+    CHECK (cantidad > 0)
 );
 """)
 
-conn.commit()
-
 # Insertar datos en Proveedores
-cursor.execute("INSERT INTO Proveedores VALUES (1, 'Proveedor A', 'Calle Falsa 123', 'CDMX', 'CDMX')")
+cursor.execute("INSERT INTO Proveedores (proveedor_id,nombre,direccion,ciudad,provincia) VALUES (1, 'Proveedor A', 'Calle Falsa 123', 'CDMX', 'CDMX')")
 
 # Insertar datos en Categorias
-cursor.execute("INSERT INTO Categorias VALUES (1, 'Electrónica')")
+cursor.execute("INSERT INTO Categorias (categoria_id,nombre) VALUES (1, 'Electrónica')")
 
 # Insertar datos en Piezas
-cursor.execute("INSERT INTO Piezas VALUES (101, 'Resistor', 'Marrón', 0.15, 1)")
+cursor.execute("INSERT INTO Piezas (pieza_id,nombre,color,precio,categoria_id) VALUES (101, 'Resistor', 'Marrón', 0.15, 1)")
 
 # Insertar datos en Pedidos
-cursor.execute("INSERT INTO Pedidos VALUES (1001, 1, 101, 500, '2025-04-10')")
+cursor.execute("INSERT INTO Pedidos (proveedor_id,pieza_id,cantidad,fecha) VALUES (1,101, 500, '2025-04-10')")
 
 conn.commit()
-
-cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
-print(cursor.fetchall())
-
-cursor.execute("SELECT * FROM Proveedores")
-print(cursor.fetchall())
-
-cursor.execute("SELECT * FROM Piezas")
-print(cursor.fetchall())
-
-cursor.execute("SELECT * FROM Pedidos")
-print(cursor.fetchall())

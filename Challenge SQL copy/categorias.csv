@@ -1,5 +1,6 @@
-categoria_id,nombre,codigo_categoria
-1,Mecánica,CAT-001
-2,Electrónica,CAT-002
-3,Interiores,CAT-003
-4,Carrocería,CAT-004
+categoria_id,nombre
+2,Mecánica
+3,Interiores
+4,Carrocería
+5,Neumaticos
+6,Accesorios

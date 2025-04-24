@@ -8,12 +8,11 @@ cursor = conn.cursor()
 #TABLA CATEGORÍAS
 cursor.execute("""
 CREATE TABLE categorias (
-    categoria_id INTEGER PRIMARY KEY AUTOINCREMENT,
-    nombre TEXT NOT NULL,
-    codigo_categoria TEXT UNIQUE NOT NULL
+    codigo_categoria VARCHAR PRIMARY KEY,
+    nombre TEXT NOT NULL
 );
 """)
-cursor.execute("INSERT INTO categorias (nombre, codigo_categoria) VALUES ('Mecánica', 'CAT001')")
+cursor.execute("INSERT INTO categorias (codigo_categoria,nombre) VALUES ('CAT001','Mecánica')")
 
 print("Categorías:")
 for fila in cursor.execute("SELECT * FROM categorias"):
@@ -23,22 +22,20 @@ for fila in cursor.execute("SELECT * FROM categorias"):
 #TABLA PROVEEDORES
 cursor.execute("""
 CREATE TABLE proveedores (
-    proveedor_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    codigo_proveedor VARCHAR PRIMARY KEY,
     nombre TEXT NOT NULL,
     direccion TEXT,
     ciudad TEXT,
-    provincia TEXT,
-    codigo_proveedor TEXT UNIQUE NOT NULL
+    provincia TEXT
 );
 """)
 
-cursor.execute("INSERT INTO proveedores (nombre, direccion, ciudad, provincia, codigo_proveedor) VALUES ('Recambios López', 'General Castaños', 'Algeciras', 'Cádiz', 'PROV01')")
+cursor.execute("INSERT INTO proveedores (codigo_proveedor,nombre, direccion, ciudad, provincia) VALUES ('PROV01','Recambios López', 'General Castaños', 'Algeciras', 'Cádiz')")
 
 #TABLA PIEZAS
 cursor.execute("""
 CREATE TABLE piezas (
-    pieza_id INTEGER PRIMARY KEY AUTOINCREMENT,
-    codigo_pieza TEXT UNIQUE NOT NULL,
+    codigo_pieza VARCHAR PRIMARY KEY,
     nombre TEXT NOT NULL,
     color TEXT,
     precio REAL,
